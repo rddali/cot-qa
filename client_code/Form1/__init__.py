@@ -13,7 +13,7 @@ class Form1(Form1Template):
   def Submit_click(self, **event_args):
     answer = anvil.server.call('query',self.text_area_1.text )
 
-  text_area_2.text = answer
+    self.text_area_2.text = answer
 
   def text_area_1_change(self, **event_args):
     """This method is called when the text in this text area is edited"""
