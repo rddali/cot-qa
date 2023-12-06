@@ -11,4 +11,5 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: Chain of Thought Chatbot, description: Chatbot to query unstructured data and return meaningful knowledge.,
   logo_img: null}
 startup_form: Form1
+uplink_visible: true
 renamed: true
